@@ -1,5 +1,5 @@
 server:
-  port: 80804
+  port: 8084
   servlet:
     context-path: /committee-service
   tomcat:
@@ -13,8 +13,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/committee_service
-    username: admin
-    password: ChwPassword
+    username: root
+    password: root
   hikari:
     connectionTimeout: 20000
     maximumPoolSize: 5
