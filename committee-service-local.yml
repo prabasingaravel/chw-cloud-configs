@@ -22,6 +22,7 @@ spring:
     database: mysql
     hibernate:
       use-new-id-generator-mappings: false
+      ddl-auto: update
 
 management:
   endpoint:
