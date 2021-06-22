@@ -60,3 +60,7 @@ logging:
     console: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36}-%L - %msg%n'
     file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36}-%L - %msg%n'
   file: ${java.io.tmpdir}/admin-service.log
+  
+prefix:
+  bearer_: "Bearer "
+  chwuserjwtsecret: "ChwSecureJwtAccessKEY"
